@@ -1,0 +1,16 @@
+html,body{
+  line-height:1;
+  font-weight:200;
+  font-family:"微软雅黑"
+}
+.clearfix{
+  display: inline-block;
+}
+.clearfix:after{
+  content:"";
+  height: 0;
+  line-height: 0;
+  clear:both;
+  display: block;
+  visibility: hidden;
+}

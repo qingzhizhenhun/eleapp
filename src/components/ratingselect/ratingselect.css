@@ -1,0 +1,41 @@
+.ratingselect .rating-type {
+  padding: 18px;
+  border: 1px solid rgba(7, 17, 27, 0.1);
+  font-size: 0;
+}
+.ratingselect .rating-type .block {
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 2px;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #4d555d;
+}
+.ratingselect .rating-type .block .count {
+  font-size: 10px;
+}
+.ratingselect .rating-type .positive {
+  background: rgba(0, 160, 220, 0.2);
+}
+.ratingselect .rating-type .positive.active {
+  background: #00a0dc;
+}
+.ratingselect .rating-type .negative {
+  background: rgba(77, 85, 93, 0.2);
+}
+.ratingselect .rating-type .negative.active {
+  background: #4d555d;
+  color: #fff;
+}
+.ratingselect .switch {
+  padding: 12px 18px;
+  line-height: 24px;
+  border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+  border-top: 1px solid rgba(7, 17, 27, 0.1);
+}
+.ratingselect .switch.in {
+  color: dodgerblue;
+}
+.ratingselect .switch.in .text {
+  color: #999;
+}
